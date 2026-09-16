@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react';
-import { Mail, ChessKnight } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export default function CoachingSite() {
   const [copied, setCopied] = useState(false);
@@ -17,7 +17,7 @@ export default function CoachingSite() {
       {/* Navigation */}
       <nav className="border-b border-gray-200">
         <div className="max-w-3xl mx-auto px-6 py-4 flex items-center gap-2">
-          <ChessKnight className="w-6 h-6 text-blue-900" />
+     
           <span className="text-lg font-semibold text-blue-900">Andrew Jeselson</span>
         </div>
       </nav>
@@ -71,7 +71,7 @@ export default function CoachingSite() {
             {/* Image Placeholder - you can replace with actual photo */}
             <div className="bg-gradient-to-br from-blue-900 to-blue-700 rounded-lg aspect-square flex items-center justify-center text-white">
               <div className="text-center">
-                <ChessKnight className="w-20 h-20 mx-auto mb-4" />
+             
                 <p className="text-sm text-blue-100">Add your coaching photo</p>
               </div>
             </div>
