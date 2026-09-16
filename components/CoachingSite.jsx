@@ -68,13 +68,12 @@ export default function CoachingSite() {
               </div>
             </div>
 
-            {/* Image Placeholder - you can replace with actual photo */}
-            <div className="bg-gradient-to-br from-blue-900 to-blue-700 rounded-lg aspect-square flex items-center justify-center text-white">
-              <div className="text-center">
-             
-                <p className="text-sm text-blue-100">Add your coaching photo</p>
-              </div>
-            </div>
+            {/* Image Placeholder - you can replace with actual <img
+  src="/d96fba83-4786-47fe-acf4-fac734d44b1e.jpeg"
+  alt="Andrew chess coaching"
+  className="rounded-lg aspect-square object-cover w-full"
+/>
+
           </div>
         </div>
       </section>
